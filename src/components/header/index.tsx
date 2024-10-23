@@ -31,13 +31,13 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className={`px-4 h-auto py-3 sticky top-0 inset-x-0 w-full transition-all duration-300 bg-transparent border-b z-50`}>
+    <header className={`px-4 h-auto py-3 sticky top-0 inset-x-0 w-full transition-all duration-300 bg-transparent border-b border-r border-l rounded-xl z-50`}>
       <Container reverse>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
               <picture>
-                <img src='https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/lw86ar0fex59m5g/barcode_light_logo_w8HUYWOfcE.png'
+                <img src='https://aslan.pockethost.io/api/files/kjfejhlex2trr82/a76tdj0sus89pzo/logo_pg0izmHdWW.webp'
                 alt="Logo"
                 width={80}
                 height={80}

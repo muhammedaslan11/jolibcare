@@ -9,7 +9,6 @@ const Footer = () => {
         { name: "Gallery", link: "/gallery" },
         { name: "Catalog", link: "https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/rtjgbs44ezdzm7b/barcode_catalog_b8gBOFEfdn.pdf",target: '_blank' },
         { name: "Products", link: "/products" },
-        { name: "Productsv2", link: "/productsv2" },
         { name: "Contact", link: "/contact" },
       ];
 
@@ -28,16 +27,14 @@ const Footer = () => {
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                         <Link href="/" className="flex items-center gap-2">
                             <picture>
-                                <img  src='https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/lw86ar0fex59m5g/barcode_light_logo_w8HUYWOfcE.png'
+                                <img  src='https://aslan.pockethost.io/api/files/kjfejhlex2trr82/a76tdj0sus89pzo/logo_pg0izmHdWW.webp'
                                 alt="Logo"
                                 width={80}
                                 height={80}
                                 className="object-contain" />
                             </picture>
                         </Link>
-                        <p className="text-muted-foreground mt-4 text-sm text-start">
-                            Barcode Professional is a subsidiary of Regulus Cosmetics A.Ş.
-                        </p>
+                    
                         <span className="mt-4 text-neutral-200 text-sm flex items-center">
                             Designed By <a className='underline mx-1' href="https://www.linkedin.com/in/muhammed-aslan11/">Muhammed</a> & <a className='underline mx-1' href="https://www.linkedin.com/in/ahmet-barut-17761b23a/">Ahmet</a>
                         </span>
@@ -84,7 +81,7 @@ const Footer = () => {
                     <div className='flex flex-row gap-1 items-center'>
                         <DynamicIcon iconName="copyright" size={16} color="#fff" />
                         <p className="text-sm text-muted-foreground">
-                            {new Date().getFullYear()} Regulus Cosmetics A.Ş All rights reserved.
+                            {new Date().getFullYear()} Jolib All rights reserved.
                         </p>
                     </div>
                     <div onClick={() => {
