@@ -18,7 +18,7 @@ const ImageSwiper = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const result = await db.collection('Barcode_Medias').getList(1, 50, {
+                const result = await db.collection('').getList(1, 50, {
                     filter: 'is_gallery = true',
                 });
                 setDatas(result.items);

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta charSet="UTF-8" />
+        {/* <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Jolib Care - Professional Cosmetic Solutions" />
         <meta name="theme-color" content="#000" />
@@ -25,7 +25,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Oswald:wght@200..700&display=swap" rel="stylesheet" /> */}
       </Head>
       <title>Jolib Care</title>
       <body className="antialiased">

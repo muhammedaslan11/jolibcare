@@ -18,7 +18,7 @@ const Newsletter = ({ }) => {
         setLoading(true);
 
         try {
-            const existingRecords = await db.collection('Barcode_Subscribers').getFullList({
+            const existingRecords = await db.collection('').getFullList({
                 filter: `mail = "${email}"`,
                 sort: '-created',
             });
@@ -36,7 +36,7 @@ const Newsletter = ({ }) => {
                 });
             } else {
                 const data = { "mail": email };
-                await db.collection('Barcode_Subscribers').create(data);
+                await db.collection('').create(data);
                 toast.success("Subscribed successfully!", {
                     icon: '🆗',
                     duration: 5000,
