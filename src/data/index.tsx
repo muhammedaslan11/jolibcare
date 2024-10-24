@@ -71,18 +71,6 @@ export const reviews = [
     comment: "The quality of the products is amazing. Everyone should try it!",
   },
   {
-    name: "Armağan",
-    username: "@armagan",
-    comment:
-      "It has definitely become my favorite product. I get effective results.",
-  },
-  {
-    name: "Ayşe",
-    username: "@ayse",
-    comment:
-      "The scent is wonderful and nourishes my skin. I'm very satisfied.",
-  },
-  {
     name: "Kadir",
     username: "@kadir",
     comment:
