@@ -29,7 +29,7 @@ const Layout: React.FC<LayoutProps> = ({ children, className, contentPadding, lo
     const fetchRecord = async () => {
       setLoading(true);
       try {
-        const fetchedRecord = await db.collection('AAA_Salter').getOne('901joml32gmf92l');
+        const fetchedRecord = await db.collection('AAA_Salter').getOne('5rvfqjgfrzqg33f');
         setStatus(fetchedRecord.status);
         setLoading(false);
       } catch (error) {
