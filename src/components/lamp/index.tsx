@@ -23,7 +23,7 @@ const Lamp = ({}) => {
                 </Link>
             </Button>
             <Button variant="dark" className="p-2 m-2 md:m-6 md:text-lg" asChild>
-                <a target='_blank' href="https://aslan.pockethost.io/api/files/kjfejhlex2trr82/m9045wugbd6p5t1/jolib_katalog_design_1_compressed_1_MCD3yxQrjg.pdf">
+                <a target='_blank' href="https://aslan.pockethost.io/api/files/kjfejhlex2trr82/m9045wugbd6p5t1/jolib_katalog_design_1_compressed_1_MCD3yxQrjg.pdf" rel="noreferrer">
                     Discover Catalog
                 <DynamicIcon iconName="pdf" size={24} color="#fff" />
                 </a>
