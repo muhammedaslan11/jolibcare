@@ -14,7 +14,7 @@ const Header = () => {
   const menuLinks = [
     { name: "About Us", link: "/about" },
     { name: "Gallery", link: "/gallery" },
-    { name: "Catalog", link: "https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/rtjgbs44ezdzm7b/barcode_catalog_b8gBOFEfdn.pdf",target: '_blank' },
+    { name: "Catalog", link: "https://aslan.pockethost.io/api/files/kjfejhlex2trr82/m9045wugbd6p5t1/jolib_katalog_design_1_compressed_1_MCD3yxQrjg.pdf",target: '_blank' },
     { name: "Products", link: "/products" },
     { name: "Contact", link: "/contact" },
   ];
