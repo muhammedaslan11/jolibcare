@@ -18,7 +18,7 @@ const Newsletter = ({ }) => {
         setLoading(true);
 
         try {
-            const existingRecords = await db.collection('').getFullList({
+            const existingRecords = await db.collection('Jolib_Subscribers').getFullList({
                 filter: `mail = "${email}"`,
                 sort: '-created',
             });

@@ -16,7 +16,7 @@ const Header = () => {
     { name: "Gallery", link: "/gallery" },
     { name: "Catalog", link: "https://aslan.pockethost.io/api/files/kjfejhlex2trr82/m9045wugbd6p5t1/jolib_katalog_design_1_compressed_1_MCD3yxQrjg.pdf",target: '_blank' },
     { name: "Products", link: "/products" },
-    { name: "Contact", link: "/contact" },
+    // { name: "Contact", link: "/contact" },
   ];
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className={`px-4 h-auto py-3 sticky top-0 inset-x-0 w-full transition-all duration-300 bg-transparent border-b border-r border-l rounded-xl z-50`}>
+    <header className={`px-4 h-auto py-3 sticky top-0 inset-x-0 w-full transition-all duration-300 bg-transparent border-b border-r border-l rounded-br-2xl rounded-bl-2xl z-50`}>
       <Container reverse>
         <div className="flex items-center justify-between">
           <div className="flex items-center">

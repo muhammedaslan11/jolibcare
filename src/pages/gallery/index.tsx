@@ -19,7 +19,7 @@ const Index = (props: ListResponse<GalleryItem>) => {
 export default Index
 
 export const getServerSideProps = async () => {
-  const result: ListResponse<GalleryItem> = await db.collection('').getList(1, 50, {
+  const result: ListResponse<GalleryItem> = await db.collection('Jolib_Medias').getList(1, 50, {
     filter: 'is_gallery = true',
   });
   return {

@@ -18,7 +18,7 @@ const ImageSwiper = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const result = await db.collection('').getList(1, 50, {
+                const result = await db.collection('Jolib_Medias').getList(1, 50, {
                     filter: 'is_gallery = true',
                 });
                 setDatas(result.items);
@@ -68,7 +68,7 @@ const ImageSwiper = () => {
                         <SwiperSlide key={index}>
                             <picture>
                                 <img
-                                    src={`https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/${item.id}/${item.field}`}
+                                    src={`https://aslan.pockethost.io/api/files/kjfejhlex2trr82/${item.id}/${item.field}`}
                                     alt={item.alt || 'Gallery Image'}
                                     className="w-[500px] h-[500px] object-cover"
                                 />

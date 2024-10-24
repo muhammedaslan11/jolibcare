@@ -12,12 +12,12 @@ const Gallery = (props: Props) => {
             <a
               key={item.id}
               data-fancybox="gallery"
-              href={`https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/${item.id}/${item.field}`}
+              href={`https://aslan.pockethost.io/api/files/kjfejhlex2trr82/${item.id}/${item.field}`}
               className={`overflow-hidden ${index % 3 === 0 ? 'md:col-span-2 md:row-span-2' : ''
                 }`}
             >
               <picture>
-                <img src={`https://aslan.pockethost.io/api/files/xmfjzrnn6nsa9rs/${item.id}/${item.field}`}
+                <img src={`https://aslan.pockethost.io/api/files/kjfejhlex2trr82/${item.id}/${item.field}`}
                   alt={item.alt || 'Gallery Image'}
                   className="w-full h-full object-cover rounded-lg"
                 />

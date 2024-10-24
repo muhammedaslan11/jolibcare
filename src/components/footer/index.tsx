@@ -20,7 +20,7 @@ const Footer = () => {
         { name: "LinkedIn", link: "https://linkedin.com/" },
     ];
     return (
-        <footer className="flex flex-col relative items-center justify-center border-t border-border pt-16 pb-8 px-6 lg:px-8 w-full lg:pt-32">
+        <footer className="flex flex-col relative items-center justify-center border rounded-tl-2xl rounded-tr-2xl pt-16 pb-8 px-6 lg:px-8 w-full lg:pt-32">
             <Container reverse>
                 <div className="hidden lg:block absolute -top-1/3 -right-1/4 bg-primary w-72 h-72 rounded-full -z-10 blur-[14rem]"></div>
                 <div className="hidden lg:block absolute bottom-0 -left-1/4 bg-primary w-72 h-72 rounded-full -z-10 blur-[14rem]"></div>
